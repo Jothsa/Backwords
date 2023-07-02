@@ -1,0 +1,13 @@
+:root {
+  --text: oklch(88.24% 0 36);
+  --background: oklch(15.33% 0.126 266.82);
+  --accent: oklch(48.53% 0.178 253.06);
+  --focus: oklch(49.71% 0.298 266.82);
+
+  @media (prefers-color-scheme: light) {
+    --text: oklch(15.33% 0.126 266.82);
+    --background: oklch(77.65% 0.118 253.06);
+    --accent: oklch(46.53% 0.178 253.06);
+    --focus: oklch(40.71% 0.298 266.82);
+  }
+}

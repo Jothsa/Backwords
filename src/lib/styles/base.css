@@ -38,16 +38,16 @@ and @mayank99
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-:where(body, h1, h2, h3, h4, h5, p, figure, picture) {
+:where(body, h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5, p, figure, picture) {
   margin: 0;
 }
 
-:where(h1, h2, h3, h4) {
+:where(h1, h2, h3, h4, .h1, .h2, .h3, .h4) {
   text-wrap: balance;
 }
 
 :where(body) {
-  min-height: 200vh;
+  min-height: 100lvh;
   font-family: system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;

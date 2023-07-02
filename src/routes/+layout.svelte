@@ -12,3 +12,9 @@
 
 <h1>{$page.data.title}</h1>
 <slot />
+<footer>Created by Jothsa</footer>
+<style>
+  h1 {
+    text-align: center;
+  }
+  </style>

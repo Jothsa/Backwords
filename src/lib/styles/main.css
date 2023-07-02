@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  justify-content: center;
+  padding: 2rem;
+  grid-auto-flow: row;
+  grid-template-rows: auto 1fr auto;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+h1, .h1 {
+  font-size: 3rem;
+}
+
+footer {
+  text-align: center;
+}
