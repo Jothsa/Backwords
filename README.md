@@ -1,6 +1,6 @@
-# Jothsa's SvelteKit Template
+# Backwords
 
-## TODO ADD Details
+Backwords your sdrow!
 
 ```bash
 pnpm i
